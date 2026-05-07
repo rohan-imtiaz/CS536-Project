@@ -2,27 +2,6 @@ Density-Connectivity Distance (dc-dist) Project Reproduction:
 
 This repository contains a full reimplementation and experimental evaluation of the paper: “Connecting the Dots: Density-Connectivity Distance Unifies DBSCAN, k-Center and Spectral Clustering” [1] The project reproduces key theoretical properties of the density-connectivity distance (dc-dist) and validates the equivalence between DBSCAN*, k-center, and ultrametric spectral clustering (USC). It also extends the original experimental evaluation with additional benchmarking and visualization scripts.
 
-FOLDER STRUCTURE:
-
-CS536-Project/
-
-├── repo/ 
-│   (original authors’ repository — DO NOT MODIFY)
-│
-├── data/
-│   ├── coil-100/
-│   ├── pendigits.*
-│   └── synthetic/
-│
-├── your_code/
-│   01_generate_data.py
-│   02_verify_dcdist.py
-│   ...
-│   10_olivetti_benchmark.py
-│
-├── figures/
-│   all output plots saved here
-
 SUMMARY:
 
 The repository is organized into three main parts. The repo/ folder contains the original authors’ implementation and must remain unchanged. The your_code/ folder contains all custom reimplementation scripts numbered from 01 to 10, which are used to generate synthetic data, verify theoretical properties, and reproduce all main experimental results. The data/ folder contains both synthetic datasets (generated automatically) and external datasets such as COIL-100 and Pendigits, which must be downloaded separately. All figures and plots generated from experiments are saved in the figures/ directory.
