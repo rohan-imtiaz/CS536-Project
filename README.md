@@ -4,22 +4,24 @@ This repository contains a full reimplementation and experimental evaluation of 
 
 FOLDER STRUCTURE:
 
-dc_dist_project/
-│
+CS536-Project/
+
 ├── repo/ 
-│   Original authors’ repository (DO NOT MODIFY)
-│   Contains baseline implementations and official experiment scripts.
+│   (original authors’ repository — DO NOT MODIFY)
 │
 ├── data/
-│   ├── coil-100/              (download required)
-│   ├── pendigits.*           (download required)
-│   └── synthetic/            (auto-generated)
+│   ├── coil-100/
+│   ├── pendigits.*
+│   └── synthetic/
 │
 ├── your_code/
-│   Custom implementation and reproduction scripts (01–10)
+│   01_generate_data.py
+│   02_verify_dcdist.py
+│   ...
+│   10_olivetti_benchmark.py
 │
 ├── figures/
-│   All generated plots and experimental outputs
+│   all output plots saved here
 
 SUMMARY:
 
